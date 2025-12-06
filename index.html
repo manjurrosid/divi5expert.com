@@ -140,7 +140,7 @@
         return;
       }
 
-      if ((currency === "BDT" && amount < 20000) || (currency === "USD" && amount < 200)) {
+      if ((currency === "BDT" && amount < 5000) || (currency === "USD" && amount < 50)) {
         errorMsg.textContent = `You Have to increase the bid amount`;
         return;
       }
